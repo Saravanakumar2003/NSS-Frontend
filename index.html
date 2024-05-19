@@ -1,0 +1,63 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="DynamicLayers">
+
+    <title>National Service Scheme - VEC</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/Nss.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!---->
+</head>
+<!--Header-->
+<header>
+    <div class="container">
+        <div class="logo">
+            <a href="index.html">
+                <img src="./img/Nss.png" alt="NSS Logo">
+            </a>
+            <h1>Velammal Engineering College</h1>
+        </div>
+        <div class="btn" id="dashboard-button">Dashboard</div>
+
+        <script>
+            document.getElementById('dashboard-button').addEventListener('click', function () {
+                window.location.href = 'https://nssvec.vercel.app/';
+            });
+        </script>
+    </div>
+</header>
+<!--Header End-->
+
+<body>
+    <!-- Loader HTML -->
+    <div id="nss-loader" class="loader-container">
+        <div class="loader">
+            <img src="./img/Nss.png" alt="NSS Logo">
+            <div class="shining-effect"></div>
+            <div class="college-name">Velammal Engineering College</div>
+        </div>
+    </div>
+    <!-- Loader End -->
+
+
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            setTimeout(function () {
+                document.getElementById('nss-loader').style.display = 'none';
+            }, 3000); // 3000 milliseconds = 3 seconds
+        });
+    </script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

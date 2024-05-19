@@ -1,0 +1,132 @@
+/* ==========================================================================
+   1.0 Global  Style
+   ========================================================================== */
+    
+
+/* ==========================================================================
+   2.0 loader Style
+   ========================================================================== */
+
+   /* Loader CSS */
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    z-index: 9999;
+    text-align: center;
+}
+
+.loader {
+    display: inline-block;
+    position: relative;
+}
+
+.loader img {
+    width: 150px;
+    height: auto;
+}
+
+.shining-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);
+    animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.college-name {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* ==========================================================================
+   3.0 Header Style
+   ========================================================================== */
+
+/* Header CSS */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo img:hover {
+    transform: scale(1.1); 
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 10px;
+
+    @media screen and (max-width: 768px){
+        font-size: 22px;
+    }
+
+    @media screen and (max-width: 480px){
+        font-size: 18px;
+    }
+
+
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #322863;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #555; 
+    text-decoration: underline;
+}
+
+/* ==========================================================================
+   4.0 Slider Style
+   ========================================================================== */

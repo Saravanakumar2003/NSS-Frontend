@@ -25,6 +25,7 @@
         </div>
     </div>
     <!-- Loader End -->
+
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -92,7 +93,7 @@
                         <i class="fa fa-dashboard"></i> Dashboard
                     </a>
                 </li>
-                
+
                 <script>
                     document.getElementById('dashboard-button').addEventListener('click', function () {
                         window.location.href = 'https://nssvec1.vercel.app/';
@@ -173,7 +174,7 @@
                     <h2 class="about_subtitle">
                         Welcome to the National Service Scheme.
                     </h2>
-                    <p class="about__text">
+                    <p style="text-align: justify;" class="about__text">
                         The National Service Scheme (NSS) is an Indian government-sponsored
                         public service program conducted by the Ministry of Youth Affairs[1]
                         and Sports of the Government of India. Popularly known as NSS, the
@@ -183,7 +184,7 @@
                         at +2 level working for a campus-community (esp. Villages) linkage.
                     </p>
                     <h2 class="about__subtitle">Our mission</h2>
-                    <p class="ourmission_txt">
+                    <p style="text-align: justify;" class="ourmission_txt">
                         The programme aims to instill the idea of social welfare in
                         students, and to provide service to society without bias. NSS
                         volunteers work to ensure that everyone who is needy gets help to
@@ -194,6 +195,15 @@
                         aid to the disaster's victims.
                     </p>
                 </div>
+
+                <div class="button" id="button">
+                    <i class="fa fa-dashboard"></i> Dashboard
+                </div>
+                <script>
+                    document.getElementById('button').addEventListener('click', function () {
+                        window.location.href = 'https://nssvec1.vercel.app/';
+                    });
+                </script>
 
             </div>
             <div class="box" id="box2">
@@ -258,14 +268,14 @@
             </div>
         </div>
     </footer>
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                setTimeout(function () {
-                    document.getElementById('nss-loader').style.display = 'none';
-                }, 3000); // 3000 milliseconds = 3 seconds
-            });
-        </script>
-        <script src="./js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            setTimeout(function () {
+                document.getElementById('nss-loader').style.display = 'none';
+            }, 3000); // 3000 milliseconds = 3 seconds
+        });
+    </script>
+    <script src="./js/main.js"></script>
 
 </body>
 

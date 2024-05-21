@@ -569,3 +569,29 @@ Gallery
     height: 1920px;
   }
 }
+
+.button
+{
+  display: inline-block;
+  background: #f82249;
+  box-shadow: inset 2px 2px 4px #831227,
+             inset -2px -2px 4px #e6285e;
+  color: #fff;
+  border-radius: 40px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 2em;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.button:hover
+{
+  background: #f82249;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: inset 5px 5px 9px #831227,
+              inset -5px -5px 9px #ff326b;
+}
+

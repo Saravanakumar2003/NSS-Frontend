@@ -14,25 +14,6 @@
     <link rel="stylesheet" href="./css/main.css">
     <!---->
 </head>
-<!--Header-->
-<header>
-    <div class="container">
-        <div class="logo">
-            <a href="index.html">
-                <img src="./img/Nss.png" alt="NSS Logo">
-            </a>
-            <h1>Velammal Engineering College</h1>
-        </div>
-        <div class="btn" id="dashboard-button">Dashboard</div>
-
-        <script>
-            document.getElementById('dashboard-button').addEventListener('click', function () {
-                window.location.href = 'https://nssvec.vercel.app/';
-            });
-        </script>
-    </div>
-</header>
-<!--Header End-->
 
 <body>
     <!-- Loader HTML -->
@@ -44,19 +25,247 @@
         </div>
     </div>
     <!-- Loader End -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/NSS-logo.png" type="image/x-icon" />
+
+        <!-- icons -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+        <!-- stylesheet-css -->
+
+        <link rel="preload" href="css/flippingCard.css" as="style" media="all"
+            onload="this.onload=null;this.rel='stylesheet'" />
+        <link rel="preload" href="css/styles.css" as="style" media="all"
+            onload="this.onload=null;this.rel='stylesheet'" />
+        <link rel="preload" href="css/contact.css" as="style" media="all"
+            onload="this.onload=null;this.rel='stylesheet'" />
+        <link rel="preload" href="css/lightbox.min.css" as="style" media="all"
+            onload="this.onload=null;this.rel='stylesheet'" />
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+        <title>NSS-VEC</title>
+
+    </head>
 
 
+    </div>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(202, 192, 192);">
+        <img class="navbar-brand" src="./img/Nss.png" alt="nss-logo-png" width="55.4rem" height="60.4rem" />
+        <a id="mmmut-tag" href=index.html>National Service Scheme<br>Velammal Engineering College</a>
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home
+                        <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"><i class="fa fa-users"></i> Team
+                    </a>
 
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="team.html">Year 2023-2024</a>
 
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="dashboard-button">
+                        <i class="fa fa-dashboard"></i> Dashboard
+                    </a>
+                </li>
+                
+                <script>
+                    document.getElementById('dashboard-button').addEventListener('click', function () {
+                        window.location.href = 'https://nssvec.vercel.app/';
+                    });
+                </script>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- btn top -->
+    <button class="btn-to-top">
+        <i class="fa fa-arrow-up fa-2x"></i>
+    </button>
+    <!-- section 0 start-->
+    <section class="main" id="0">
+        <!-- Flipping Images Start-->
+        <div class="grids">
+            <div class="card-one">
+                <div class="card">
+                    <div class="card__side card__side--front" id="front-1"></div>
+                    <div class="card__side card__side--back" id="back-1"></div>
+                </div>
+            </div>
+            <div class="card-two">
+                <div class="card">
+                    <div class="card__side card__side--front" id="front-2"></div>
+                    <div class="card__side card__side--back" id="back-2"></div>
+                </div>
+            </div>
+            <div class="card-three">
+                <div class="card">
+                    <div class="card__side card__side--front" id="front-3"></div>
+                    <div class="card__side card__side--back" id="back-3"></div>
+                </div>
+            </div>
+            <div class="card-four">
+                <div class="card">
+                    <div class="card__side card__side--front" id="front-4"></div>
+                    <div class="card__side card__side--back" id="back-4"></div>
+                </div>
+            </div>
+            <div class="card-five">
+                <div class="card">
+                    <div class="card__side card__side--front" id="front-5"></div>
+                    <div class="card__side card__side--back" id="back-5"></div>
+                </div>
+            </div>
+            <div class="card-six">
+                <div class="card">
+                    <div class="card__side card__side--front" id="front-6"></div>
+                    <div class="card__side card__side--back" id="back-6"></div>
+                </div>
+            </div>
+            <div class="card-seven">
+                <div class="card">
+                    <div class="card__side card__side--front" id="front-7"></div>
+                    <div class="card__side card__side--back" id="back-7"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Flipping images end -->
+    </section>
+    <!-- section 0 ends -->
+
+    <!-- section 1.1 start-->
+    <section class="aboutus" id="1.1">
+        <br>
+        <h1 style="text-decoration: underline;">About Us</h1>
+        <div class="flex-container">
+            <div class="box" id="box1">
+                <div class="about__img">
+                    <img src="./img/Nss.png" alt="About Image" style="
+            width: 200px;
+            height: 200px; margin-bottom: 10px;
+             " />
+                    <br>
+                    <h2 class="about_subtitle">
+                        Welcome to the National Service Scheme.
+                    </h2>
+                    <p class="about__text">
+                        The National Service Scheme (NSS) is an Indian government-sponsored
+                        public service program conducted by the Ministry of Youth Affairs[1]
+                        and Sports of the Government of India. Popularly known as NSS, the
+                        scheme was launched in Gandhiji's Centenary year in 1969. Aimed at
+                        developing student's personality through community service, NSS is a
+                        voluntary association of young people in Colleges, Universities and
+                        at +2 level working for a campus-community (esp. Villages) linkage.
+                    </p>
+                    <h2 class="about__subtitle">Our mission</h2>
+                    <p class="ourmission_txt">
+                        The programme aims to instill the idea of social welfare in
+                        students, and to provide service to society without bias. NSS
+                        volunteers work to ensure that everyone who is needy gets help to
+                        enhance their standard of living and lead a life of dignity. In
+                        doing so, volunteers learn from people in villages how to lead a
+                        good life despite a scarcity of resources. it also provides help in
+                        natural and man-made disasters by providing food, clothing and first
+                        aid to the disaster's victims.
+                    </p>
+                </div>
+
+            </div>
+            <div class="box" id="box2">
+                <!--NOTICE BOARD    -->
+                <div class="content_">
+                    <h1 class="header_">NOTIFICATIONS</h1>
+                    <marquee behavior="scroll" direction="up" scrollamount="8"
+                        onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
+                        onmouseout="this.setAttribute('scrollamount',8,0);this.start();" class="movingbody_">
+                        <script>
+                            for (var i = 1; i <= 5; i++) {
+                                if (i == 1)
+                                    document.write(
+                                        '<p class="m-par_">' +
+                                        i +
+
+                                        ".This is official website on National Sevice Scheme, Velammal Engineering College </p>");
+                                if (i == 2)
+                                    document.write(
+                                        '<p class="m-par_">' +
+                                        i +
+                                        ".We have successfull completed Eco-Nomics 3.0, a 100 days tree plantation initative bu NSS volunteers</p>"
+                                    );
+                            }
+                        </script>
+                    </marquee>
+                </div>
+    </section>
+    <!-- section 1.1 ends -->
+    <!-- boostrap js start -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+    <!-- bootstrap js ends -->
+
+    <!-- btn-to-top script start -->
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            setTimeout(function () {
-                document.getElementById('nss-loader').style.display = 'none';
-            }, 3000); // 3000 milliseconds = 3 seconds
-        });
+        const btn = document.querySelector('.btn-to-top');
+        btn.addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+            });
+        })
     </script>
-    <script src="./js/main.js"></script>
+    <!-- btn-to-top script ends-->
+
+    <footer id="footer">
+        <hr>
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong>NSS, VEC</strong>. All Rights Reserved <br> Designed by <a
+                    href="https://saravana.vercel.app/" style="color: #f82249"> Saravanakumar R</a>
+            </div>
+        </div>
+    </footer>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                setTimeout(function () {
+                    document.getElementById('nss-loader').style.display = 'none';
+                }, 3000); // 3000 milliseconds = 3 seconds
+            });
+        </script>
+        <script src="./js/main.js"></script>
 
 </body>
 

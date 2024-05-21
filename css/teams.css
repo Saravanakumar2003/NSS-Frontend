@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.team-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #131419;
+    min-height: 100vh; 
+}
+
+.team-container
+{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+.team-container .team-card
+{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    background: #131419;
+    box-shadow:  7px 7px 11px #0b0b0e,
+                 -7px -7px 11px #1b1d24;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+.team-container .team-card .team-content
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.team-container .team-card:hover .team-content
+{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+
+
+ .team-container .team-card .team-content .imgBx
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px #3f4353,
+                0px 0px 0px 8px #131419,
+                7px 7px 11px #0b0b0e,
+                -7px -7px 11px #1b1d24;
+
+}
+
+.team-container .team-card .team-content .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+
+.team-container .team-card .team-content .contentBx h3
+{
+    color: #fff;
+    text-transform: initial;
+    Letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+.team-container .team-card .team-content .contentBx h3 span
+{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+.team-container .team-card .sci
+{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+}
+.team-container .team-card .sci li
+{
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: calc(0.1s * var(--i));
+}
+.team-container .team-card:hover .sci li
+{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.team-container .team-card .sci li a
+{
+    color: #fff;
+    font-size:24px;
+}
+.team-section2{
+    background: #131419;
+}
+h2 {
+    display:inline-block;
+    color: rgb(255, 255, 255);
+    background:#f82249;
+    box-shadow: inset 2px 2px 4px #831227,
+               inset -2px -2px 4px #e6285e;
+  
+    border-radius:40px;
+    margin-bottom:0;
+    margin-top:14px;
+    margin-left:15px;
+    margin-right:15px;
+    padding: 4px 45px;
+    font-family: 'Poppins', sans-serif;
+    font-size:24px;
+    font-weight:bolder;
+}

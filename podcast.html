@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/Nss.png" type="image/x-icon" />
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    <!-- stylesheet-css -->
+
+    <link rel="preload" href="css/flippingCard.css" as="style" media="all"
+        onload="this.onload=null;this.rel='stylesheet'" />
+    <link rel="preload" href="css/contact.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'" />
+    <link rel="preload" href="css/lightbox.min.css" as="style" media="all"
+        onload="this.onload=null;this.rel='stylesheet'" />
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <link rel="preload" href="css/teams.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="css/podcast.css">
+
+    <title>NSSVEC-Podcast</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GKETKK6ZGK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-GKETKK6ZGK');
+    </script>
+    <!-- Google tag ends -->
+
+</head>
+
+<!-- navbar start -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(202, 192, 192);">
+    <img class="navbar-brand" src="./img/Nss.png" alt="nss-logo-png" width="55.4rem" height="60.4rem" />
+    <a id="mmmut-tag" href=index.html>National Service Scheme<br>Velammal Engineering College</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home
+                    <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"><i class="fa fa-users"></i> Team
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="23-24.html">Year 2023-2024</a>
+                    <a class="dropdown-item" href="24-25.html">Year 2024-2025</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html"><i class="fa fa-image"></i> Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="podcast.html"><i class="fa fa-microphone"></i> Podcast</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="dashboard-button">
+                    <i class="fa fa-dashboard"></i> Dashboard
+                </a>
+            </li>
+
+            <script>
+                document.getElementById('dashboard-button').addEventListener('click', function () {
+                    window.location.href = 'https://nssvec1.vercel.app/';
+                });
+            </script>
+        </ul>
+    </div>
+</nav>
+<!-- navbar end -->
+
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="intro">
+            <h2>Welcome to the NSS Podcast</h2>
+            <p>Insightful discussions on community service, leadership, and social service impact by NSS of Velammal
+                Engineering College.</p>
+        </section>
+
+        <section class="podcast">
+            <!-- Episode 1 -->
+            <div class="episode">
+                <img src="img/podcast/epdisode1.png" alt="Episode 1 Thumbnail">
+                <div class="episode-info">
+                    <h3>Episode 1: Celebrating the Missile Man of India</h3>
+                    <p><strong>Host:</strong> Sharumathi & Deva</p>
+                    <p><strong>Description:</strong> Dr. A.P.J. Abdul Kalam, whose wisdom🌟 and vision continue to inspire generations. From a humble background to leading the nation🇮🇳 with his dreams and dedication, his legacy reminds us to dream big and work hard for a better tomorrow.</p>
+                    <p><strong>Release Date:</strong> October 15, 2024</p>
+                    <p><strong>Duration:</strong> 4 minutes</p>
+                    <div class="buttons">
+                        <button onclick="openModal('audio1')">Play Audio</button>
+                        <button onclick="openModal('video1')">Play Video</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modals -->
+    <!-- Audio Modal for Episode 1 -->
+    <div id="audio1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('audio1')">&times;</span>
+            <audio controls>
+                <source src="audios/Episode1.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <!-- Video Modal for Episode 1 -->
+    <div id="video1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('video1')">&times;</span>
+            <video controls>
+                <source src="videos/Episode1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- Audio Modal for Episode 2 -->
+    <div id="audio2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('audio2')">&times;</span>
+            <h2>Episode 2: Sustainable Initiatives (Audio)</h2>
+            <audio controls>
+                <source src="audio/episode2.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <!-- Video Modal for Episode 2 -->
+    <div id="video2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('video2')">&times;</span>
+            <h2>Episode 2: Sustainable Initiatives (Video)</h2>
+            <video controls>
+                <source src="video/episode2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+
+    <!-- section 3 ends -->
+    <!-- boostrap js start -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+    <!-- bootstrap js ends -->
+
+    <!-- btn-to-top script start -->
+    <script>
+        const btn = document.querySelector('.btn-to-top');
+        btn.addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+            });
+        })
+    </script>
+    <!-- btn-to-top script ends-->
+
+    <!-- preloader script starts-->
+    <script>
+        function close_loader() {
+            document.getElementById('pre-loader').style.display = 'none';
+        }
+    </script>
+    <!-- preloader script end-->
+
+    <footer id="footer">
+        <hr>
+        <div class="copyright">
+            &copy; Copyright <strong>NSS, VEC</strong>. All Rights Reserved <br> Designed by <a
+                href="https://saravana.vercel.app/" style="color: #f82249"> Saravanakumar R</a>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script>
+    function openModal(modalId) {
+        document.getElementById(modalId).style.display = "block";
+    }
+
+    function closeModal(modalId) {
+        const modal = document.getElementById(modalId);
+        modal.style.display = "none";
+
+        // Pause audio or video if present
+        const mediaElements = modal.querySelectorAll('audio, video');
+        mediaElements.forEach(media => {
+            media.pause();
+            media.currentTime = 0; // Reset to the beginning
+        });
+    }
+
+    window.onclick = function (event) {
+        if (event.target.className === "modal") {
+            closeModal(event.target.id);
+        }
+    }
+</script>
+
+</body>
+
+</html>

@@ -46,81 +46,120 @@
 
 </head>
 
-<!-- navbar start -->
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(202, 192, 192);">
-    <img class="navbar-brand" src="./img/Nss.png" alt="nss-logo-png" width="55.4rem" height="60.4rem" />
-    <a id="mmmut-tag" href=index.html>National Service Scheme<br>Velammal Engineering College</a>
+<body>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(202, 192, 192);">
+        <img class="navbar-brand" src="./img/Nss.png" alt="nss-logo-png" width="55.4rem" height="60.4rem" />
+        <a id="mmmut-tag" href=index.html>National Service Scheme<br>Velammal Engineering College</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home
+                        <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="team.html"><i class="fa fa-users"></i> Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html"><i class="fa fa-image"></i> Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="podcast.html"><i class="fa fa-microphone"></i> Podcast</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="dashboard-button">
+                        <i class="fa fa-dashboard"></i> Dashboard
+                    </a>
+                </li>
+
+                <script>
+                    document.getElementById('dashboard-button').addEventListener('click', function () {
+                        window.location.href = 'https://nssvec1.vercel.app/';
+                    });
+                </script>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- btn top -->
+    <button class="btn-to-top">
+        <i class="fa fa-arrow-up fa-2x"></i>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home
-                    <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="team.html"><i class="fa fa-users"></i> Team</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="gallery.html"><i class="fa fa-image"></i> Gallery</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="podcast.html"><i class="fa fa-microphone"></i> Podcast</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="dashboard-button">
-                    <i class="fa fa-dashboard"></i> Dashboard
-                </a>
-            </li>
 
-            <script>
-                document.getElementById('dashboard-button').addEventListener('click', function () {
-                    window.location.href = 'https://nssvec1.vercel.app/';
-                });
-            </script>
-        </ul>
-    </div>
-</nav>
-<!-- navbar end -->
-
-<!-- btn top -->
-<button class="btn-to-top">
-    <i class="fa fa-arrow-up fa-2x"></i>
-</button>
-
-<!-- section 3 start-->
-<section class="team-section2" id="2">
-    <h2>Faculty Coordinator</h2>
-    <div class="team-container">
-        <div class="team-card">
-            <div class="team-content">
-                <div class="imgBx"><img src="./img/KarthikSir.jpg" /></div>
-                <div class="contentBx">
-                    <h3>Dr. R. Karthik <br /><span>NSS, Program Officier</span></h3>
+    <!-- section 3 start-->
+    <section class="team-section2" id="2">
+        <h2>Faculty Coordinator</h2>
+        <div class="team-container">
+            <div class="team-card">
+                <div class="team-content">
+                    <div class="imgBx"><img src="./img/KarthikSir.jpg" /></div>
+                    <div class="contentBx">
+                        <h3>Dr. R. Karthik <br /><span>NSS, Program Officier</span></h3>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <h2>Core Members 24-25</h2>
-    <section class="team-section" id="2">
-        <div class="team-container">
-
+        <h2>Core Members 24-25</h2>
+        <section class="team-section" id="2">
             <div class="team-container">
+
+                <div class="team-container">
+                    <div class="team-card">
+                        <div class="team-content">
+                            <div class="imgBx"><img src="img/kaviya.jpg" /></div>
+                            <div class="contentBx">
+                                <h3>
+                                    KAVIYA SHREE <br /><span>GCO & MECH&AUTO Department Coordinator</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i: 1">
+                                <a href="https://www.instagram.com/kaviya.shree.07/" target="_blank"><i
+                                        class="bi bi-instagram"></i></a>
+                            </li>
+                            <li style="--i: 2">
+                                <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-content">
+                            <div class="imgBx"><img src="img/lalith.jpg" /></div>
+                            <div class="contentBx">
+                                <h3>LALITH KANNAN <br /><span>VCO & CSE Department Coordinator</span></h3>
+                            </div>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i: 1">
+                                <a href="https://www.instagram.com/lalith_kannan02/?__pwa=1" target="_blank"><i
+                                        class="bi bi-instagram"></i></a>
+                            </li>
+                            <li style="--i: 2">
+                                <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="team-card">
                     <div class="team-content">
-                        <div class="imgBx"><img src="img/kaviya.jpg" /></div>
+                        <div class="imgBx"><img src="img/vinoth.jpg" /></div>
                         <div class="contentBx">
                             <h3>
-                                KAVIYA SHREE <br /><span>GCO & MECH&AUTO Department Coordinator</span>
+                                VINOTH KUMAR <br /><span>ECE Department Coordinator</span>
                             </h3>
                         </div>
                     </div>
                     <ul class="sci">
                         <li style="--i: 1">
-                            <a href="https://www.instagram.com/kaviya.shree.07/" target="_blank"><i
+                            <a href="https://www.instagram.com/persona_unica_22/?__pwa=1" target="_blank"><i
                                     class="bi bi-instagram"></i></a>
                         </li>
                         <li style="--i: 2">
@@ -130,14 +169,147 @@
                 </div>
                 <div class="team-card">
                     <div class="team-content">
-                        <div class="imgBx"><img src="img/lalith.jpg" /></div>
+                        <div class="imgBx"><img src="img/daya.jpg" /></div>
                         <div class="contentBx">
-                            <h3>LALITH KANNAN <br /><span>VCO & CSE Department Coordinator</span></h3>
+                            <h3>DAYANITHA<br /><span>IT Department Coordinator</span></h3>
                         </div>
                     </div>
                     <ul class="sci">
                         <li style="--i: 1">
-                            <a href="https://www.instagram.com/lalith_kannan02/?__pwa=1" target="_blank"><i
+                            <a href="https://www.instagram.com/_daya.nitha_/?__pwa=1" target="_blank"><i
+                                    class="bi bi-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="team-card">
+                    <div class="team-content">
+                        <div class="imgBx"><img src="img/sanjai.jpg" /></div>
+                        <div class="contentBx">
+                            <h3>
+                                SANJAY KUMAR<br /><span>Civil, Cyber, EIE Department Coordinator</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="https://www.instagram.com/_.sannnxx/?__pwa=1" target="_blank"><i
+                                    class="bi bi-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="team-card">
+                    <div class="team-content">
+                        <div class="imgBx"><img src="img/subashini.jpg" /></div>
+                        <div class="contentBx">
+                            <h3>
+                                SUBASHINI<br /><span>EEE Department Coordinator</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="https://www.instagram.com/suba_shini277/?__pwa=1" target="_blank"><i
+                                    class="bi bi-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="team-card">
+                    <div class="team-content">
+                        <div class="imgBx"><img src="img/rahul.jpg" /></div>
+                        <div class="contentBx">
+                            <h3>
+                                RAHUL KUMARAN<br /><span>AI&DS Department Coordinator</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="https://www.instagram.com/_rahul_21_____/?__pwa=1" target="_blank"><i
+                                    class="bi bi-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="team-card">
+                    <div class="team-content">
+                        <div class="imgBx"><img src="img/shravanth.jpg" /></div>
+                        <div class="contentBx">
+                            <h3>
+                                SHRAVANTH KUMAR<br /><span>Posters Team Head</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="https://www.instagram.com/the.boy_who.lived.934/?__pwa=1" target="_blank"><i
+                                    class="bi bi-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="team-card">
+                    <div class="team-content">
+                        <div class="imgBx"><img src="img/swetha.jpg" /></div>
+                        <div class="contentBx">
+                            <h3>
+                                SWEDHA<br /><span>Newsletter Team Head</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="https://www.instagram.com/ps_swe/?__pwa=1" target="_blank"><i
+                                    class="bi bi-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="team-card">
+                    <div class="team-content">
+                        <div class="imgBx"><img src="img/mukeshnss.jpg" /></div>
+                        <div class="contentBx">
+                            <h3>
+                                MUKESH<br /><span>Technical Team Head</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="https://www.instagram.com/_mxkshh_/?__pwa=1" target="_blank"><i
+                                    class="bi bi-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="team-card">
+                    <div class="team-content">
+                        <div class="imgBx"><img src="img/mano.jpg" /></div>
+                        <div class="contentBx">
+                            <h3>
+                                Manova Daniel <br /><span>Website & Camera Handling Team Head</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="https://www.instagram.com/mxnovx/?__pwa=1" target="_blank"><i
                                     class="bi bi-instagram"></i></a>
                         </li>
                         <li style="--i: 2">
@@ -146,183 +318,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="team-card">
-                <div class="team-content">
-                    <div class="imgBx"><img src="img/vinoth.jpg" /></div>
-                    <div class="contentBx">
-                        <h3>
-                            VINOTH KUMAR <br /><span>ECE Department Coordinator</span>
-                        </h3>
-                    </div>
-                </div>
-                <ul class="sci">
-                    <li style="--i: 1">
-                        <a href="https://www.instagram.com/persona_unica_22/?__pwa=1" target="_blank"><i
-                                class="bi bi-instagram"></i></a>
-                    </li>
-                    <li style="--i: 2">
-                        <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="team-card">
-                <div class="team-content">
-                    <div class="imgBx"><img src="img/daya.jpg" /></div>
-                    <div class="contentBx">
-                        <h3>DAYANITHA<br /><span>IT Department Coordinator</span></h3>
-                    </div>
-                </div>
-                <ul class="sci">
-                    <li style="--i: 1">
-                        <a href="https://www.instagram.com/_daya.nitha_/?__pwa=1" target="_blank"><i
-                                class="bi bi-instagram"></i></a>
-                    </li>
-                    <li style="--i: 2">
-                        <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="team-card">
-                <div class="team-content">
-                    <div class="imgBx"><img src="img/sanjai.jpg" /></div>
-                    <div class="contentBx">
-                        <h3>
-                            SANJAY KUMAR<br /><span>Civil, Cyber, EIE Department Coordinator</span>
-                        </h3>
-                    </div>
-                </div>
-                <ul class="sci">
-                    <li style="--i: 1">
-                        <a href="https://www.instagram.com/_.sannnxx/?__pwa=1" target="_blank"><i
-                                class="bi bi-instagram"></i></a>
-                    </li>
-                    <li style="--i: 2">
-                        <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="team-card">
-                <div class="team-content">
-                    <div class="imgBx"><img src="img/subashini.jpg" /></div>
-                    <div class="contentBx">
-                        <h3>
-                            SUBASHINI<br /><span>EEE Department Coordinator</span>
-                        </h3>
-                    </div>
-                </div>
-                <ul class="sci">
-                    <li style="--i: 1">
-                        <a href="https://www.instagram.com/suba_shini277/?__pwa=1" target="_blank"><i
-                                class="bi bi-instagram"></i></a>
-                    </li>
-                    <li style="--i: 2">
-                        <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="team-card">
-                <div class="team-content">
-                    <div class="imgBx"><img src="img/rahul.jpg" /></div>
-                    <div class="contentBx">
-                        <h3>
-                            RAHUL KUMARAN<br /><span>AI&DS Department Coordinator</span>
-                        </h3>
-                    </div>
-                </div>
-                <ul class="sci">
-                    <li style="--i: 1">
-                        <a href="https://www.instagram.com/_rahul_21_____/?__pwa=1" target="_blank"><i
-                                class="bi bi-instagram"></i></a>
-                    </li>
-                    <li style="--i: 2">
-                        <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="team-card">
-                <div class="team-content">
-                    <div class="imgBx"><img src="img/shravanth.jpg" /></div>
-                    <div class="contentBx">
-                        <h3>
-                            SHRAVANTH KUMAR<br /><span>Posters Team Head</span>
-                        </h3>
-                    </div>
-                </div>
-                <ul class="sci">
-                    <li style="--i: 1">
-                        <a href="https://www.instagram.com/the.boy_who.lived.934/?__pwa=1" target="_blank"><i
-                                class="bi bi-instagram"></i></a>
-                    </li>
-                    <li style="--i: 2">
-                        <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="team-card">
-                <div class="team-content">
-                    <div class="imgBx"><img src="img/swetha.jpg" /></div>
-                    <div class="contentBx">
-                        <h3>
-                            SWEDHA<br /><span>Newsletter Team Head</span>
-                        </h3>
-                    </div>
-                </div>
-                <ul class="sci">
-                    <li style="--i: 1">
-                        <a href="https://www.instagram.com/ps_swe/?__pwa=1" target="_blank"><i
-                                class="bi bi-instagram"></i></a>
-                    </li>
-                    <li style="--i: 2">
-                        <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="team-card">
-                <div class="team-content">
-                    <div class="imgBx"><img src="img/mukeshnss.jpg" /></div>
-                    <div class="contentBx">
-                        <h3>
-                            MUKESH<br /><span>Technical Team Head</span>
-                        </h3>
-                    </div>
-                </div>
-                <ul class="sci">
-                    <li style="--i: 1">
-                        <a href="https://www.instagram.com/_mxkshh_/?__pwa=1" target="_blank"><i
-                                class="bi bi-instagram"></i></a>
-                    </li>
-                    <li style="--i: 2">
-                        <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="team-card">
-                <div class="team-content">
-                    <div class="imgBx"><img src="img/mano.jpg" /></div>
-                    <div class="contentBx">
-                        <h3>
-                            Manova Daniel <br /><span>Website & Camera Handling Team Head</span>
-                        </h3>
-                    </div>
-                </div>
-                <ul class="sci">
-                    <li style="--i: 1">
-                        <a href="https://www.instagram.com/mxnovx/?__pwa=1" target="_blank"><i
-                                class="bi bi-instagram"></i></a>
-                    </li>
-                    <li style="--i: 2">
-                        <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-------------------------------------------------------------------------------------------------------------------->
+        <!-------------------------------------------------------------------------------------------------------------------->
 
-    <!-------------------------------------------------------------------------------------------------------------------->
+        <!-------------------------------------------------------------------------------------------------------------------->
 
-    <h2>Core Members 23-24</h2>
+        <h2>Core Members 23-24</h2>
         <section class="team-section" id="2">
             <div class="team-container">
 
@@ -572,6 +574,6 @@
                     href="https://saravana.vercel.app/" style="color: #f82249"> Saravanakumar R</a>
             </div>
         </footer>
-        </body>
+</body>
 
 </html>
